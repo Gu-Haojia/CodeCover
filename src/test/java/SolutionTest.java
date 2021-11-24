@@ -35,4 +35,12 @@ public class SolutionTest {
         answer= testsolution.findMinStep("RBYYBBRRB","YRBGB");
         assertEquals(3,answer);
     }
+
+    @Test
+    public void Test5() {
+        Solution testsolution=new Solution();
+        int answer;
+        answer= testsolution.findMinStep("RBYYBBRRB","YRBGB");
+        assertEquals(2,answer);
+    }
 }
